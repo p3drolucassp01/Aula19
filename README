@@ -1,0 +1,12 @@
+# . Al Pedro Lucas
+
+Exemplo 1: Animação com contador
+
+Descrição : O gancho useEffectcria um intervalo que incrementa o estado counta cada segundo.
+Funcionamento : Na montagem do componente, setIntervalinicia o contador. Uma função de limpeza remove o intervalo ao desmontar o componente para evitar problemas de desempenho.
+
+
+Exemplo 2: Sincronizar dados com o localStorage
+
+Descrição : O gancho useEffectmantém o valor de um campo de texto sincronizado com o armazenamento local do navegador.
+Funcionamento : Sempre que o estado namemuda, o useEffectatualiza o localStorage para refletir o novo valor.
